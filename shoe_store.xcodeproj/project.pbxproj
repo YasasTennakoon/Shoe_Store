@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60B67EF2C1C0234002E0A35 /* BasicShoeGridContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60B67EE2C1C0234002E0A35 /* BasicShoeGridContainer.swift */; };
+		E62A287F2CE8466900170600 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A287E2CE8466900170600 /* LandingPage.swift */; };
+		E62A28812CE8496100170600 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62A28802CE8496100170600 /* CartView.swift */; };
+		E655060F2C1CD40A004D59CC /* ShoeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E655060E2C1CD40A004D59CC /* ShoeViewModel.swift */; };
 		E66650EC2BD8A0BB002068B1 /* shoe_storeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66650EB2BD8A0BB002068B1 /* shoe_storeApp.swift */; };
-		E66650EE2BD8A0BB002068B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66650ED2BD8A0BB002068B1 /* ContentView.swift */; };
 		E66650F02BD8A0BD002068B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66650EF2BD8A0BD002068B1 /* Assets.xcassets */; };
 		E66650F42BD8A0BD002068B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66650F32BD8A0BD002068B1 /* Preview Assets.xcassets */; };
 		E66650FE2BD8A0BD002068B1 /* shoe_storeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66650FD2BD8A0BD002068B1 /* shoe_storeTests.swift */; };
 		E66651082BD8A0BD002068B1 /* shoe_storeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66651072BD8A0BD002068B1 /* shoe_storeUITests.swift */; };
 		E666510A2BD8A0BD002068B1 /* shoe_storeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66651092BD8A0BD002068B1 /* shoe_storeUITestsLaunchTests.swift */; };
+		E66651172BD8A26C002068B1 /* FeatureShoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66651162BD8A26C002068B1 /* FeatureShoe.swift */; };
+		E666511D2BD8F032002068B1 /* ComingSoonShoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666511C2BD8F032002068B1 /* ComingSoonShoe.swift */; };
+		E6A472AE2BDD7BEF00DD2D3A /* ShoeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A472AD2BDD7BEF00DD2D3A /* ShoeModel.swift */; };
+		E6BA54F92BDD321600D9EAE4 /* AppObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA54F82BDD321600D9EAE4 /* AppObjects.swift */; };
+		E6D9AB472C0EEB9C00D3D9B8 /* DetailedShoeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9AB462C0EEB9C00D3D9B8 /* DetailedShoeView.swift */; };
+		E6D9AB492C11C3CD00D3D9B8 /* AllShoeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9AB482C11C3CD00D3D9B8 /* AllShoeCollection.swift */; };
+		E6D9AB4B2C1219BF00D3D9B8 /* BasicShoeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9AB4A2C1219BF00D3D9B8 /* BasicShoeContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60B67EE2C1C0234002E0A35 /* BasicShoeGridContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShoeGridContainer.swift; sourceTree = "<group>"; };
+		E62A287E2CE8466900170600 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		E62A28802CE8496100170600 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E655060E2C1CD40A004D59CC /* ShoeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeViewModel.swift; sourceTree = "<group>"; };
 		E66650E82BD8A0BB002068B1 /* shoe_store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoe_store.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66650EB2BD8A0BB002068B1 /* shoe_storeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoe_storeApp.swift; sourceTree = "<group>"; };
-		E66650ED2BD8A0BB002068B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E66650EF2BD8A0BD002068B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66650F12BD8A0BD002068B1 /* shoe_store.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shoe_store.entitlements; sourceTree = "<group>"; };
 		E66650F32BD8A0BD002068B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +58,13 @@
 		E66651032BD8A0BD002068B1 /* shoe_storeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoe_storeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66651072BD8A0BD002068B1 /* shoe_storeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoe_storeUITests.swift; sourceTree = "<group>"; };
 		E66651092BD8A0BD002068B1 /* shoe_storeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoe_storeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E66651162BD8A26C002068B1 /* FeatureShoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureShoe.swift; sourceTree = "<group>"; };
+		E666511C2BD8F032002068B1 /* ComingSoonShoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonShoe.swift; sourceTree = "<group>"; };
+		E6A472AD2BDD7BEF00DD2D3A /* ShoeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeModel.swift; sourceTree = "<group>"; };
+		E6BA54F82BDD321600D9EAE4 /* AppObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppObjects.swift; sourceTree = "<group>"; };
+		E6D9AB462C0EEB9C00D3D9B8 /* DetailedShoeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedShoeView.swift; sourceTree = "<group>"; };
+		E6D9AB482C11C3CD00D3D9B8 /* AllShoeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllShoeCollection.swift; sourceTree = "<group>"; };
+		E6D9AB4A2C1219BF00D3D9B8 /* BasicShoeContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicShoeContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +92,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E62A287C2CE845EB00170600 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				E66651162BD8A26C002068B1 /* FeatureShoe.swift */,
+				E666511C2BD8F032002068B1 /* ComingSoonShoe.swift */,
+				E6D9AB4A2C1219BF00D3D9B8 /* BasicShoeContainer.swift */,
+				E60B67EE2C1C0234002E0A35 /* BasicShoeGridContainer.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		E62A287D2CE8460600170600 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				E6D9AB462C0EEB9C00D3D9B8 /* DetailedShoeView.swift */,
+				E6D9AB482C11C3CD00D3D9B8 /* AllShoeCollection.swift */,
+				E62A287E2CE8466900170600 /* LandingPage.swift */,
+				E62A28802CE8496100170600 /* CartView.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		E655060D2C1CD3CE004D59CC /* ShoeViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E655060E2C1CD40A004D59CC /* ShoeViewModel.swift */,
+			);
+			path = ShoeViewModels;
+			sourceTree = "<group>";
+		};
 		E66650DF2BD8A0BB002068B1 = {
 			isa = PBXGroup;
 			children = (
+				E655060D2C1CD3CE004D59CC /* ShoeViewModels */,
+				E6A472AC2BDD7BAA00DD2D3A /* Model */,
 				E66650EA2BD8A0BB002068B1 /* shoe_store */,
 				E66650FC2BD8A0BD002068B1 /* shoe_storeTests */,
 				E66651062BD8A0BD002068B1 /* shoe_storeUITests */,
@@ -95,11 +147,13 @@
 		E66650EA2BD8A0BB002068B1 /* shoe_store */ = {
 			isa = PBXGroup;
 			children = (
+				E62A287D2CE8460600170600 /* pages */,
+				E62A287C2CE845EB00170600 /* components */,
 				E66650EB2BD8A0BB002068B1 /* shoe_storeApp.swift */,
-				E66650ED2BD8A0BB002068B1 /* ContentView.swift */,
 				E66650EF2BD8A0BD002068B1 /* Assets.xcassets */,
 				E66650F12BD8A0BD002068B1 /* shoe_store.entitlements */,
 				E66650F22BD8A0BD002068B1 /* Preview Content */,
+				E6BA54F82BDD321600D9EAE4 /* AppObjects.swift */,
 			);
 			path = shoe_store;
 			sourceTree = "<group>";
@@ -127,6 +181,14 @@
 				E66651092BD8A0BD002068B1 /* shoe_storeUITestsLaunchTests.swift */,
 			);
 			path = shoe_storeUITests;
+			sourceTree = "<group>";
+		};
+		E6A472AC2BDD7BAA00DD2D3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6A472AD2BDD7BEF00DD2D3A /* ShoeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66650EE2BD8A0BB002068B1 /* ContentView.swift in Sources */,
+				E66651172BD8A26C002068B1 /* FeatureShoe.swift in Sources */,
+				E62A287F2CE8466900170600 /* LandingPage.swift in Sources */,
+				E655060F2C1CD40A004D59CC /* ShoeViewModel.swift in Sources */,
+				E6D9AB4B2C1219BF00D3D9B8 /* BasicShoeContainer.swift in Sources */,
+				E6A472AE2BDD7BEF00DD2D3A /* ShoeModel.swift in Sources */,
+				E6BA54F92BDD321600D9EAE4 /* AppObjects.swift in Sources */,
+				E62A28812CE8496100170600 /* CartView.swift in Sources */,
+				E666511D2BD8F032002068B1 /* ComingSoonShoe.swift in Sources */,
 				E66650EC2BD8A0BB002068B1 /* shoe_storeApp.swift in Sources */,
+				E60B67EF2C1C0234002E0A35 /* BasicShoeGridContainer.swift in Sources */,
+				E6D9AB492C11C3CD00D3D9B8 /* AllShoeCollection.swift in Sources */,
+				E6D9AB472C0EEB9C00D3D9B8 /* DetailedShoeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
